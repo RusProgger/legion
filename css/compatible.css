@@ -1,0 +1,65 @@
+
+.compatible {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #dddada;
+}
+
+.compatible__title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 45px;
+    color: #2274b8;
+}
+
+.compatible__cards {
+    border: 1px solid #4e4e4e;
+    border-radius: 5px;
+}
+
+.slick-slide {
+    margin: 0 5px;
+}
+
+.compatible__body {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.compatible__body > img {
+    width: 150px;
+    display: block;
+    margin: 25px auto;
+}
+
+.compatible__text {
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.compatible__price {
+    padding-bottom: 50px;
+    font-weight: 500;
+    font-size: 2rem;
+    
+}
+
+.compatible__body > button {
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 35px;
+    margin-bottom: 40px;
+}
+
+.slick-next,
+.slick-prev {
+    display: none !important;
+}
+
+.slick-next::before, .slick-prev::before {
+    color: #000;
+    display: none;
+}

@@ -1,0 +1,64 @@
+.characteristics-bg {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    min-height: 50vh;
+}
+
+
+/* cards */
+
+.characteristics__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    min-height: 70vh;
+    /* gap: 20px;  */
+    padding: 40px 0;
+}
+
+.characteristics__item {
+    flex-basis: calc(20% - 20px);
+    margin: 20px 0;
+    border-right: 1px solid #2274b8;
+    /* border: 1px solid rgb(221, 221, 221); */
+}
+
+.characteristics__body {
+    padding: 15px 20px;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.characteristics__title {
+    color: #2274b8;
+    padding-bottom: 10px;
+}
+
+.characteristics__desc {
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 1200px) {
+    .characteristics__item {
+      flex-basis: calc(25% - 20px); /* Уменьшаем количество колонок до 4 в ряду */
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .characteristics__item {
+      flex-basis: calc(33.33% - 20px); /* Уменьшаем количество колонок до 3 в ряду */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .characteristics__item {
+      flex-basis: calc(50% - 20px); /* Уменьшаем количество колонок до 2 в ряду */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .characteristics__item {
+      flex-basis: calc(100% - 20px); /* Одна колонка на всю ширину на самых узких экранах */
+    }
+}

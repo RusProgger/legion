@@ -1,0 +1,23 @@
+.support {
+    background-color: #d3d2d2;
+}
+
+.support__body {
+    text-align: center;
+}
+
+.support__body > img {
+    width: 100%;
+    display: block;
+}
+
+.support__title {
+    padding: 50px 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.support__desc {
+    padding-bottom: 55px;
+    line-height: 1.5;
+}

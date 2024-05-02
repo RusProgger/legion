@@ -1,0 +1,26 @@
+/* header */
+
+.header {
+    min-height: 70px;
+}
+
+.header-bg {
+    background-color: var(--black-color);
+}
+
+.header__container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: inherit;
+}
+
+/* .header__logo > a > img {
+    width: 220px;
+    object-fit: cover;
+    display: block;
+    font-size: 0;
+} */
